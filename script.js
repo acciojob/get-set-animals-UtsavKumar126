@@ -2,7 +2,7 @@
 class Animal {
 	#species;
 	constructor(species){
-		this.species=#species;
+		this.#species=species;
 	}
 	getSpecies(){
 		return this.#species;
