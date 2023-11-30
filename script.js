@@ -1,14 +1,13 @@
 //complete this code
 class Animal {
-	#species;
 	constructor(species){
-		this.#species=species;
+		this.species=species;
 	}
 	getSpecies(){
 		return this.#species;
 	}
 	makeSound(){
-		
+		console.log(`This ${this.species} makes a sound`)
 	}
 }
 
